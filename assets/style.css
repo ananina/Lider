@@ -283,3 +283,83 @@ div{
     height: 371px;
 
 }
+.item-list{
+    margin-top: -15px;
+}
+.hit{
+    width: 700px;
+    height: 40px;
+    background-color: #000000;
+    margin: 0 0 10px;
+}
+.hit h3{
+    font-size: 18px;
+    color: #ffca08;
+    text-align: center;
+    font-family: Arial;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.item-list .more{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.item-list .more a{
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.item-list .item .item-discount .thumbnail{
+    height: 380px;
+}
+.item-list .item .item-discount .thumbnail .preview{
+    height: 150px;
+    width: 150px;
+}
+.item-list .item .item-discount .thumbnail .caption{
+    height: 180px;
+}
+.item-list .item .item-discount .thumbnail h3{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.item-list .item .item-discount .thumbnail .anons{
+    font-size: 12px;
+    line-height: 12px;
+    color: #000;
+}
+.item-list .item .item-discount .thumbnail .desc{
+    font-size: 12px;
+    line-height: 12px;
+    color: #969696;
+}
+.item-list .item .item-discount .thumbnail .count{
+    background-color: #ffca08;
+    text-align: center;
+    position: absolute;
+    left: -10px;
+    margin-top: 5px;
+    width: 102px;
+    height: 31px;
+    padding-top: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.item-list .item .item-discount .thumbnail .old-count{
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5px;
+    left: 101px;
+    line-height: 30px;
+    color: #000;
+}
+.item-list .item .item-discount .thumbnail .old-count s{
+    text-decoration: line-through;
+}
