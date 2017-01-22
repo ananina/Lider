@@ -22,6 +22,7 @@ div{
     padding: 0;
     width: 960px;
     position: relative;
+    display: table;
 }
 .footer{
     margin: 0 auto;
@@ -164,10 +165,10 @@ div{
     width: 600px;
 }
 
-.left-sidebar{
-    width: 200px;
-    display: inline-block;
+.content .container-fluid{
+    padding: 0;
 }
+
 .tree-menu ul { list-style: none; }
 
 .tree-menu > ul { padding: 0; }
@@ -217,12 +218,9 @@ div{
     background-position: 4px 8px;
     background-repeat: no-repeat;
 }
-#content{
-    width: 750px;
-    height: 100px;
-    background-color: #000099;
-    float: right;
-    border-left: solid 4px #787878;
+.content-right{
+    width: 730px;
+    /*border-left: solid 4px #787878;*/
 }
 
 .footer .main-menu{
@@ -274,4 +272,14 @@ div{
     color: #969696;
     margin: 15px 0 0 15px;
     float: left;
+}
+
+.main-content{
+    width: 700px;
+    margin-left: 10px;
+}
+#img-info{
+    width: 700px;
+    height: 371px;
+
 }
