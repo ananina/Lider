@@ -23,7 +23,9 @@ $(document).ready(function(){
     });
 
     loadData('all', 'brand');
-    loadTreeMenu();
+    //loadTreeMenu();
+    //каталог-меню в левом сайдбаре
+    $('#tree-menu').ntm();
 
     function loadData(count, table, id_name, id) {
         $.ajax({
@@ -46,6 +48,8 @@ $(document).ready(function(){
         });
     }
 
+
+    /*
     function loadTreeMenu(){
         $.ajax({
             type: "POST",
@@ -83,7 +87,7 @@ $(document).ready(function(){
                 $('#tree-menu').ntm();
             }
         });
-    }
+    }*/
 
 
 

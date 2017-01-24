@@ -74,11 +74,10 @@ if(isset($action) && $action == 'delete'){
         print_r($rows);
     }
 }
+/*
 if(isset($join) && isset($q)){
-
-            $model = model::GetInstance();
-            $data = $model->leftjoin($q);
-            print_r(json_encode($data));
-            exit;
-
-    }
+    $model = model::GetInstance();
+    $data = $model->leftjoin($q);
+    print_r(json_encode($data));
+    exit;
+}*/

@@ -7,6 +7,28 @@
             <div class="left-sidebar col-md-3">
                 <div class="tree-menu" id="tree-menu">
                     <ul class="category">
+                        <?php if(isset($category)) {
+                            foreach ($category as $id_category => $category_name) {
+                                ?>
+                                <li>
+                                    <a href="#<?php echo $id_category; ?>"><?php echo $category_name; ?></a>
+                                    <?php if(isset($subcategory)) {
+                                        foreach ($subcategory as $mass) {
+                                            if ($id_category == $mass['id_category']){
+                                                ?>
+                                                <ul>
+                                                    <li>
+                                                    <a href="#<?php echo $mass['id']; ?>"><?php echo $mass['subCategory']; ?></a>
+                                                    </li>
+                                                </ul>
+                                            <?php
+                                            }
+                                        }
+                                    }?>
+                                </li>
+                            <?php
+                            }
+                        }?>
                     </ul>
                 </div>
             </div>
@@ -99,5 +121,5 @@
             </div>
         </div>
     </div>
-
+    
 </div>
